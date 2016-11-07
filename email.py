@@ -2,7 +2,7 @@ import sendgrid
 import os
 from sendgrid.helpers.mail import *
 
-sg = sendgrid.SendGridAPIClient(apikey='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')
+sg = sendgrid.SendGridAPIClient(apikey='api_key')
 from_email = Email("evan@teamlevellabs.com")
 subject = "Hello World from the SendGrid Python Library!"
 to_email = Email("evan.latner@gmail.com")
